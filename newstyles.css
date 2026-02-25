@@ -1,0 +1,11 @@
+.map-image {
+  border-radius: 5px;  /* Adjust the value (in pixels) to control the curve amount */
+  width: 100%;  /* Optional: Makes the image responsive within the card */
+  height: auto;  /* Optional: Maintains aspect ratio */
+}
+
+footer {
+    background-color: black;
+    padding:50px;
+    margin-top: 30px;
+}
