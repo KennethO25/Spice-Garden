@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+    /*max-width: 1179px;*/
+    /*max-height: 2556px;*/
+    margin: 0 auto; 
+    padding: 0px;    
+
+}
+.divider{
+    padding: 20px;
+    background-color: lightgray;
+}
+
+h1 {
+    padding: 30px;
+    font-size: 60px;
+}
+h2 {
+    font-size: 400px;
+}
+
+
+nav {
+    background-color: #ED9E35;
+    display: flex;
+    flex-direction: row;
+    padding: 0px
+}
+
+
+#middle{
+    display: flex;
+    flex-direction: row;
+    height: 1000px
+}
+
+#your-order{
+    font-size: 50px;
+}
+
+#receipt{
+    background-color: aliceblue;
+    width: 50%;
+}
+
+ul{
+    padding: 50px;
+    font-size: 20px;
+}
+
+#total-cost{
+    font-size: 50px;
+}
+
+.cancel-button {
+    min-width: 80px;
+}
+
+aside {
+    background-color: #ED9E35;
+    display: block;
+    width: 50%;
+    clear: both;
+    margin-bottom: 1rem;
+}
+
+#map {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+#tracker{
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+
+
+footer {
+    background-color: black;
+    padding:50px
+}
