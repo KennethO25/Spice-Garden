@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spice Garden</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type ="image/jpeg" href="WebLogo526457.jpg">
+    <!-- Bootstrap CSS and JS- stylesheets-->
+    <!-- I can add changes to bootstrap by adding the class here or adding an id and then doing my own CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</head>
+
+
+<body>
+    <!-- Bootstrap Navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+        <a class="navbar-brand" href="#">Spice Garden</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0"> 
+        <!-- Navbar items, the sm can be edited it is 2/12 i can make it 4 instead to make it 
+        4/12ths of the page -->
+            <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                More
+            </a>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Settings</a></li>
+                <li><a class="dropdown-item" href="#">FAQs</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Contact Us</a></li>
+            </ul>
+            </li>
+            </ul>
+                <form class="d-flex me-3" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+            <button type="button" class="btn btn-primary btn-lg me-2">Basket</button>
+            <button type="button" class="btn btn-secondary btn-lg">History</button>
+        </div>
+    </div>
+    </nav>
+    <main>
+        <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+            <img src="Slide image.avif" class="d-block w-100" alt="noodles">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Spice Garden</h5>
+                <p>Authentic Chinesecuisine in a cozy setting.</p>
+            </div>
+            </div>
+            <div class="carousel-item">
+            <img src="slide image2.jpg" class="d-block w-100" alt="more noodles">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Spice Garden</h5>
+                <p>Authentic Chinese cuisine in a cozy setting.</p>
+            </div>
+            </div>
+            <div class="carousel-item">
+            <img src="Slide image3.webp" class="d-block w-100" alt="Dim sum">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Spice Garden</h5>
+                <p>Authentic Chinese cuisine in a cozy setting.</p>
+            </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+        </div>
+                <!-- Large button groups (default and split) -->
+        <div class="btn-group">
+        <button class="btn btn-secondary btn-lg dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Price
+        </button>
+        <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">$</a></li>
+            <li><a class="dropdown-item" href="#">$$</a></li>
+            <li><a class="dropdown-item" href="#">$$$</a></li>
+        </ul>
+        </div>
+        <div class="btn-group">
+        <button class="btn btn-secondary btn-lg dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Rating
+        </button>
+        <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">*</a></li>
+            <li><a class="dropdown-item" href="#">**</a></li>
+            <li><a class="dropdown-item" href="#">***</a></li>
+            <li><a class="dropdown-item" href="#">****</a></li>
+            <li><a class="dropdown-item" href="#">*****</a></li>
+        </ul>
+        </div>
+        <div class="btn-group">
+        <button class="btn btn-secondary btn-lg dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            SortBy
+        </button>
+        <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Recommended</a></li>
+            <li><a class="dropdown-item" href="#">Price Low to High</a></li>
+            <li><a class="dropdown-item" href="#">Price High to Low</a></li>
+        </ul>
+        </div>
+        <button type="button" class="btn btn-primary btn-lg">Under 30 Mins</button>
+        <button type="button" class="btn btn-secondary btn-lg">Pickup Available</button>
+</div>
+        <!--Cards-->
+        <section class="container mt-4">
+            <h3>New Menu Additions</h3>
+            <div class="row g-3 align-items-stretch">
+                <div class="col-sm-6 col-md-4 d-flex">
+                    <div class="card h-100">
+                        <img src="beeffried.webp" class="card-img-top" alt="Beef Fried Rice">
+                        <div class="card-body">
+                            <h5 class="card-title">Beef Fried Rice</h5>
+                            <p class="card-text">Authentic Chinese dish with tender beef and aromatic rice.</p>
+                            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 d-flex">
+                    <div class="card h-100">
+                        <img src="prawn.jpg" class="card-img-top" alt="Prawn fried rice">
+                        <div class="card-body">
+                            <h5 class="card-title">Prawn Fried Rice</h5>
+                            <p class="card-text">Delicious prawns in a fragrant, savory fried rice dish.</p>
+                            <p class="card-text"><small class="text-body-secondary">Last updated 5 mins ago</small></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 d-flex">
+                    <div class="card h-100">
+                        <img src="chicken-chow-mein-1.jpg" class="card-img-top" alt="chicken chow mein">
+                        <div class="card-body">
+                            <h5 class="card-title">Chicken Chow Mein</h5>
+                            <p class="card-text">Savory chicken in a crispy, flavorful chow mein dish.</p>
+                            <p class="card-text"><small class="text-body-secondary">Last updated 10 mins ago</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+               <section class="container mt-4">
+            <h3>Chef's Specials</h3>
+            <div class="row g-3">
+                <div class="col-sm-6 col-md-4">
+                    <div class="card">
+                        <img src="padthai.webp" class="card-img-top" alt="Pad Thai">
+                        <div class="card-body">
+                            <h5 class="card-title">Pad Thai</h5>
+                            <p class="card-text">Authentic Thai stir-fried noodles with tamarind and peanuts.</p>
+                            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="card">
+                        <img src="Salt-and-Pepper-Chicken-Tall1-768x1152.jpg" class="card-img-top" alt="Salt and Pepper Chicken">
+                        <div class="card-body">
+                            <h5 class="card-title">Salt and Pepper Chicken</h5>
+                            <p class="card-text">Crispy, seasoned chicken with a savory, aromatic coating.</p>
+                            <p class="card-text"><small class="text-body-secondary">Last updated 5 mins ago</small></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="card">
+                        <img src="blackbean.webp" class="card-img-top" alt="Beef with Black Bean Sauce">
+                        <div class="card-body">
+                            <h5 class="card-title">Beef with Black Bean Sauce</h5>
+                            <p class="card-text">Savory Chinese beef dish with a rich, umami-packed black bean sauce.</p>
+                            <p class="card-text"><small class="text-body-secondary">Last updated 10 mins ago</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                   <section class="container mt-4">
+            <h3>Your Favourites</h3>
+            <div class="row g-3 align-items-stretch">
+                <div class="col-sm-6 col-md-4">
+                    <div class="card">
+                        <img src="vegetable-spring-rolls-recipe.jpg" class="card-img-top" alt="Vegetable Spring Rolls">
+                        <div class="card-body">
+                            <h5 class="card-title">Vegetable Spring Rolls</h5>
+                            <p class="card-text">Crispy, fresh vegetable spring rolls with a savory dipping sauce.</p>
+                            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="card">
+                        <img src="Sweet-and-Sour-Chicken-3-1.jpg" class="card-img-top" alt="Sweet and Sour Chicken">
+                        <div class="card-body">
+                            <h5 class="card-title">Sweet and Sour Chicken</h5>
+                            <p class="card-text">Tender chicken in a tangy, sweet sauce with bell peppers and pineapple.</p>
+                            <p class="card-text"><small class="text-body-secondary">Last updated 5 mins ago</small></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="card">
+                        <img src="Charsui.jpg" class="card-img-top" alt="Char Siu">
+                        <div class="card-body">
+                            <h5 class="card-title">Char Sui</h5>
+                            <p class="card-text">Savory Chinese barbecued pork with a sweet glaze.</p>
+                            <p class="card-text"><small class="text-body-secondary">Last updated 10 mins ago</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </main>
+    <br> <br>
+    <footer> est 2026 </footer>
+</body>
+</html>

@@ -1,0 +1,27 @@
+body{
+    background-color: #ed7e07;
+    font-family: Arial, sans-serif;
+}
+.my_navbar{
+    background-color: #ed7e07;
+}
+img{
+    width: 40%;
+    height: auto;
+}
+footer{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* ensure all card images are uniform */
+.card-img-top {
+    width: 100%;          /* fill card width */
+    height: 200px;        /* fixed height for consistency */
+    object-fit: cover;    /* crop rather than distort */
+}

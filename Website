@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type ="image/jpeg" href="graduation-headshot.jpeg">
+    <link rel="stylesheet" href="styles.css">
+    <title> Kenneth's Website</title>
+</head>
+    <body>
+            <section id = "home">
+            <header class = "header">
+            <h1> Kenneth Ojong</h1>
+                <!-- External Links -->
+                <nav>
+                    <ul class = "social-buttons">
+                    <li><a href="https://www.linkedin.com/in/kenneth-ojong/"> <button style = "background-color: #000000; color: white; border: none; padding: 10px 20px; border-radius: 5px; "> LinkedIn</button></a></li>
+                    <li><a href="mailto:Kennethojong4@gmail.com"><button style = "background-color: #000000; color: white; border: none; padding: 10px 20px; border-radius: 5px;">Email Me</button></a></li>
+                </ul>
+                </nav>
+                </section>
+                    <!-- Page navigation Bar -->
+                <nav>
+                <ul class = "nav">
+                    <li><a href="#Academics">Academics</a></li>
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#Personalinterests">Personal Interests</a></li>
+                    <li><a href="#Workhistory">Work History</a></li>
+                </ul>
+                </nav>
+                <h1 class = "title"><u>Welcome to my website</u></h1>
+            </header>
+            <main>
+            <!-- intro -->
+            <section class = "Home" id ="Home">
+                <div class ="headshot">
+                    <img src="graduation-headshot.jpeg" alt="#Graduation2026" width="200" height="200">
+                </div> <br>
+                <div class ="introduction-text">
+                    <p>Hello everyone, it is nice to meet you all, this is the first webpage I’ve ever made and I hope after this you’ll get to know a little bit about me and my interests.</p>
+                </div>
+            </section>
+            <!-- personal interests -->
+            <h2><u>About me!</u></h2>
+            <section class = "personal-interests" id ="Personalinterests">
+                <div class = "Personalinterests">
+                    <p>“Tell me about yourself” - I’m sure this question has made all of us at some point <b style="font-size: large;">sweat buckets</b>, but here I go.</p>
+                    <ul> <u>My hobbies include: </u> 
+                        <li>Playing Basketball, in person and online</li>
+                        <li>Travelling (Going to Houston next month)</li>
+                        <li>Watching anything sci-fi, especially anime</li>
+                        <li> Meeting up with friends to try different food spots</li>
+                    </ul>
+                    <ol><u>My favourite foods in order: </u>
+                        <li>Lamb Chops</li>
+                        <li>Lasagna</li>
+                        <li>Burritos from Pepe's</li>
+                    </ol>
+                </div>
+            </section>
+            <section class = "work-history" id ="Workhistory">
+                <!-- Work history -->
+                <div class = "Workhistory">
+                    <h2><u>Work History</u></h2>
+                    <table>
+                        <thead>
+                            <tr>
+                            <th>Job Title</th>
+                            <th>Company</th>
+                            <th>Duration</th>
+                            <th>Responsibilities</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                            <td>Team Leader (Party Champion)</td>
+                            <td>Gravity Active Entertainment</td>
+                            <td>08/2022 – Present</td>
+                            <td>
+                                Organising team members during birthday parties<br>
+                                Party chef / liaison, cooking for all parties<br>
+                                Helping flip rooms quickly for next bookings<br>
+                                Hosting birthday parties<br>
+                                Creating TikTok <a href="https://vm.tiktok.com/ZNRfuGoGm/">content</a>
+                            </td>
+                            </tr>
+
+                            <tr>
+                            <td>Researcher in A.I</td>
+                            <td>Avalon Insights</td>
+                            <td>11/2024 – 05/2025</td>
+                            <td>
+                                Researching AI’s role in different sectors (e.g., Health)
+                            </td>
+                            </tr>
+
+                            <tr>
+                            <td>General Assistant</td>
+                            <td>Jump In Trampoline Parks</td>
+                            <td>05/2021 – 09/2022</td>
+                            <td>
+                                Hosting birthday parties<br>
+                                Party chef<br>
+                                Café duties / checking in guests<br>
+                                Park Marshall
+                            </td>
+                            </tr>
+
+                            <tr>
+                            <td>Pharmacy Counter Assistant</td>
+                            <td>Jhoots Pharmacy</td>
+                            <td>12/2019 – 03/2020</td>
+                            <td>
+                                Preparing prescription orders using the 
+                            
+                                patient database<br>
+                                Liaising with surgeries and pharmacists to gather, verify, and relay patient data
+                            </td>
+                            </tr>
+                        </tbody>
+                        </table>
+                </div>
+            </section>
+            <!-- academics -->
+            <section class = "academics" id ="Academics">
+            <h2><u>Academic Qualifications</u></h2>
+                <div class = "Academics">
+                    <table>
+                        <thead>
+                            <tr>
+                            <th>Qualification</th>
+                            <th>Institution</th>
+                            <th>Duration</th>
+                            <th>Details</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                            <td>MSc Applied Artificial Intelligence (Merit)</td>
+                            <td>Aston University, Birmingham</td>
+                            <td>09/2024 – 09/2025</td>
+                            <td>
+                                Relevant modules: Data Mining; Mathematics for AI; Machine Learning; Database Systems; Ethics for AI<br>
+                                Dissertation: “AI‑Enhanced Business Process Mining for Compliance and Fraud Detection in Financial Transactions”
+                            </td>
+                            </tr>
+
+                            <tr>
+                            <td>BSc Biomedical Sciences (2:2)</td>
+                            <td>Birmingham City University, Birmingham</td>
+                            <td>09/2021 – 07/2024</td>
+                            <td>
+                                Undergraduate degree in Biomedical Sciences
+                            </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+            <!-- contact form -->
+             <div>
+                <h2><u>Contact Me</u></h2>
+                <form class="contact-form">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required placeholder="Name">
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required placeholder="Email">
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required placeholder="Message"></textarea>
+
+                <button type="submit">Send</button>
+                </form>
+            </div>
+            <div>
+                <section class = "survey">
+
+                <p>Is anybody else new to tech like me?</p>
+                <!-- Dropdown box -->
+                <label for="new-dev-answer">Your answer:</label>
+                <select id="new-dev-answer" name="new-dev-answer">
+                <option value="">-- Select an option --</option>
+                <option value="yes">Yes, I'm new too!</option>
+                <option value="somewhat">Somewhat</option>
+                <option value="no">No, I’ve been doing this for a while</option>
+            </select>
+            <button type="submit">Submit</button>
+            </section>
+            </div>
+        </main>
+        <footer class ="footer">
+            <p class="copyright">Copyright 2026 © by Kenneth Ojong</p>
+        </footer>
+
+</body>
+</html>
